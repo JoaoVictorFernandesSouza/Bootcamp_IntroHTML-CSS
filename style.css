@@ -1,9 +1,21 @@
 body {
     background: #f7f7f7;
     font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
 }
 
-#title, .subtitle, .post_title {
+/*
+
+    max-width: conteúdo possui até um limite máximo, mas caso a tela janela seja ainda menor, ele irá se adequar
+
+    Margin: auto
+    cria espaçamentos iguais dos dois lados, se adequando ao tamanho da janela
+*/
+
+#title,
+.subtitle,
+.post_title {
     color: #505050;
 }
 
@@ -12,7 +24,7 @@ body {
     text-transform: uppercase;
 }
 
-a{
+a {
     text-decoration: line-through;
     color: #505050;
 }
@@ -36,6 +48,7 @@ a{
     margin: 0;
     margin-bottom: 15px;
     text-transform: capitalize;
+    text-align: justify;
 }
 
 .post_image {
